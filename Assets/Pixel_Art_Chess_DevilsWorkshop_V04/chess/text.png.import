@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://80vxbi2hoem8"
-path="res://.godot/imported/text.png-803eceb6e25fb49c977496b49955b125.ctex"
+path="res://.godot/imported/text.png-754cc5e4f0ca2b80d58adc962b36e8fd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Pixel_Art_Chess_DevilsWorkshop_V04/chess/text.png"
-dest_files=["res://.godot/imported/text.png-803eceb6e25fb49c977496b49955b125.ctex"]
+source_file="res://assets/Pixel_Art_Chess_DevilsWorkshop_V04/chess/text.png"
+dest_files=["res://.godot/imported/text.png-754cc5e4f0ca2b80d58adc962b36e8fd.ctex"]
 
 [params]
 

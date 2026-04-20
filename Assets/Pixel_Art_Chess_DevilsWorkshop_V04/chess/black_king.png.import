@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5244j51u6q5d"
-path="res://.godot/imported/black_king.png-8a175888be461faf16eb0a512a793b7c.ctex"
+path="res://.godot/imported/black_king.png-27fdb9ededd57a2e6b1d2f07599c905d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Pixel_Art_Chess_DevilsWorkshop_V04/chess/black_king.png"
-dest_files=["res://.godot/imported/black_king.png-8a175888be461faf16eb0a512a793b7c.ctex"]
+source_file="res://assets/Pixel_Art_Chess_DevilsWorkshop_V04/chess/black_king.png"
+dest_files=["res://.godot/imported/black_king.png-27fdb9ededd57a2e6b1d2f07599c905d.ctex"]
 
 [params]
 

@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://bajf4qc6rhaku"]
+
+[ext_resource type="Script" uid="uid://carelx8y56vgj" path="res://scripts/main_menu.gd" id="1_ekxnf"]
+[ext_resource type="Texture2D" uid="uid://rmcivmvyinvy" path="res://icon.svg" id="1_l6cm7"]
+[ext_resource type="Texture2D" uid="uid://c5244j51u6q5d" path="res://assets/Pixel_Art_Chess_DevilsWorkshop_V04/chess/black_king.png" id="3_bqqt6"]
+
+[node name="MainMenu" type="MarginContainer" unique_id=1152707000]
+offset_right = 1158.0
+offset_bottom = 647.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_ekxnf")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1986867349]
+layout_mode = 2
+color = Color(0.37251657, 0.17029423, 0.92593884, 1)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=257165801]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer" unique_id=146657684]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+
+[node name="Header" type="HBoxContainer" parent="HBoxContainer/VBoxContainer" unique_id=602402375]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Logo" type="TextureRect" parent="HBoxContainer/VBoxContainer/Header" unique_id=581790191]
+layout_mode = 2
+texture = ExtResource("1_l6cm7")
+
+[node name="Label" type="Label" parent="HBoxContainer/VBoxContainer/Header" unique_id=517794852]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 49
+text = "Chess Time"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MenuOptions" type="VBoxContainer" parent="HBoxContainer/VBoxContainer" unique_id=1531686223]
+layout_mode = 2
+
+[node name="Play" type="Button" parent="HBoxContainer/VBoxContainer/MenuOptions" unique_id=930624404]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "Play Game"
+icon = ExtResource("1_l6cm7")
+
+[node name="Options" type="Button" parent="HBoxContainer/VBoxContainer/MenuOptions" unique_id=633050090]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "Options
+"
+icon = ExtResource("1_l6cm7")
+
+[node name="QuitGame" type="Button" parent="HBoxContainer/VBoxContainer/MenuOptions" unique_id=909897829]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "Quit"
+icon = ExtResource("1_l6cm7")
+
+[node name="Image Container" type="CenterContainer" parent="HBoxContainer" unique_id=907635392]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Image" type="TextureRect" parent="HBoxContainer/Image Container" unique_id=1662412755]
+custom_minimum_size = Vector2(300, 300)
+layout_mode = 2
+texture = ExtResource("3_bqqt6")
+
+[connection signal="pressed" from="HBoxContainer/VBoxContainer/MenuOptions/Play" to="." method="ToGame"]

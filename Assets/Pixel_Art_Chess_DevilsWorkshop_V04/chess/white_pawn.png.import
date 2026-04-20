@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://do60dwbyqb6rj"
-path="res://.godot/imported/white_pawn.png-03f71174d7b184aa9e85d6973be6c45c.ctex"
+path="res://.godot/imported/white_pawn.png-74222711b327ea0d344e75097e788b5e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Pixel_Art_Chess_DevilsWorkshop_V04/chess/white_pawn.png"
-dest_files=["res://.godot/imported/white_pawn.png-03f71174d7b184aa9e85d6973be6c45c.ctex"]
+source_file="res://assets/Pixel_Art_Chess_DevilsWorkshop_V04/chess/white_pawn.png"
+dest_files=["res://.godot/imported/white_pawn.png-74222711b327ea0d344e75097e788b5e.ctex"]
 
 [params]
 

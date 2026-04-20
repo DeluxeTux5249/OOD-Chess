@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://doaqrjrqnyvwm"
-path="res://.godot/imported/white_queen.png-1c817ee9bbc4b095ef95e12c41f15b92.ctex"
+path="res://.godot/imported/white_queen.png-ff718407eeefd7b86317f898dc904ada.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Pixel_Art_Chess_DevilsWorkshop_V04/chess/white_queen.png"
-dest_files=["res://.godot/imported/white_queen.png-1c817ee9bbc4b095ef95e12c41f15b92.ctex"]
+source_file="res://assets/Pixel_Art_Chess_DevilsWorkshop_V04/chess/white_queen.png"
+dest_files=["res://.godot/imported/white_queen.png-ff718407eeefd7b86317f898dc904ada.ctex"]
 
 [params]
 

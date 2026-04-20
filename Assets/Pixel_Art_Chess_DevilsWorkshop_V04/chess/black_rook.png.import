@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8ggpiretu7nb"
-path="res://.godot/imported/black_rook.png-c5f6a3037faf308929c1d0828caf1755.ctex"
+path="res://.godot/imported/black_rook.png-950b156cf874ba30879fbcdce85e42da.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Pixel_Art_Chess_DevilsWorkshop_V04/chess/black_rook.png"
-dest_files=["res://.godot/imported/black_rook.png-c5f6a3037faf308929c1d0828caf1755.ctex"]
+source_file="res://assets/Pixel_Art_Chess_DevilsWorkshop_V04/chess/black_rook.png"
+dest_files=["res://.godot/imported/black_rook.png-950b156cf874ba30879fbcdce85e42da.ctex"]
 
 [params]
 

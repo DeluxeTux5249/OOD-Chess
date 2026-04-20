@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cy3e5b3hd6xyu"
-path="res://.godot/imported/sprites.png-830c25c93b7d2a64615e882ec2775115.ctex"
+path="res://.godot/imported/sprites.png-ce2f94b2f74ea4bdae133de3d139d3b2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Pixel_Art_Chess_DevilsWorkshop_V04/chess/sprites.png"
-dest_files=["res://.godot/imported/sprites.png-830c25c93b7d2a64615e882ec2775115.ctex"]
+source_file="res://assets/Pixel_Art_Chess_DevilsWorkshop_V04/chess/sprites.png"
+dest_files=["res://.godot/imported/sprites.png-ce2f94b2f74ea4bdae133de3d139d3b2.ctex"]
 
 [params]
 
