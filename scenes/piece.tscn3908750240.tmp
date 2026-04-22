@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bjswgjxavo5pm"]
+
+[ext_resource type="Texture2D" uid="uid://bkptkt1y0ixbv" path="res://assets/Pixel_Art_Chess_DevilsWorkshop_V04/chess/black_bishop.png" id="1_gebih"]
+[ext_resource type="Script" uid="uid://dq3rxcpon1x33" path="res://scripts/drag_movement.gd" id="2_s58gp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hisf2"]
+size = Vector2(18, 19)
+
+[node name="Piece" type="Area2D" unique_id=1336279067]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1532433772]
+shape = SubResource("RectangleShape2D_hisf2")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1771937728]
+texture = ExtResource("1_gebih")
+
+[node name="DragMovementComponent" type="Node2D" parent="." unique_id=559409282 node_paths=PackedStringArray("body")]
+script = ExtResource("2_s58gp")
+body = NodePath("..")
+metadata/_custom_type_script = "uid://dq3rxcpon1x33"
